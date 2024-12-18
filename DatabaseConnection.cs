@@ -7,7 +7,7 @@ namespace HMDB
     {
         public SqlConnection getConnection()
         { 
-            String connectionString = "Server=localhost\\SQLEXPRESS;Database=HMDB;User Id=akm;Password=se4kobechko1;TrustServerCertificate=True;"; 
+            String connectionString = "Server=localhost\\SQLEXPRESS;Database=HMDB;User Id=ZZZZ;Password=Zzzzzzz1;TrustServerCertificate=True;"; 
             SqlConnection connection = new SqlConnection(connectionString);
             return connection;
         }
