@@ -1,0 +1,6 @@
+@HMDB_HostAddress = http://localhost:5055
+
+GET {{HMDB_HostAddress}}/api/Account/Login
+Accept: application/json
+
+###

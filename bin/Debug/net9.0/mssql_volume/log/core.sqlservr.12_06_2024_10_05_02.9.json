@@ -1,0 +1,57 @@
+{
+    "reason": "0x00000006",
+    "processName": "sqlservr",
+    "pid": "9",
+    "instanceId": "3e4e3192-dc8d-4627-8a36-8b1f5204f799",
+    "crashId": "3223da1d-20d9-4a04-849e-470420adbe0b",
+    "threadState": "0x00007ff9830d6630",
+    "threadId": "59",
+    "libosThreadId": "0xc4",
+    "buildStamp": "36609f8568f3a9111cda44c6d880d2618381e50ab5769f8b411831ee009285ed",
+    "versions": [
+        {
+            "name": "",
+            "buildId": "36609f8568f3a9111cda44c6d880d2618381e50ab5769f8b411831ee009285ed",
+            "buildType": "release",
+            "src": "2198910",
+            "date": "Fri Nov 08 20:26:38 GMT 2024",
+            "buildNum": "148573495"
+        },
+        {
+            "name": "PAL",
+            "buildId": "6f098b98323b69d8e8db1c61fa8f69b8c64c85c8667dde2931e2b1c9790165d0",
+            "buildType": "release",
+            "src": "c17f43e",
+            "date": "Fri Nov 08 20:23:14 GMT 2024",
+            "buildNum": "148573495"
+        }
+    ],
+    "message": "Termination of \\SystemRoot\\system32\\AppLoader.exe was due to fatal error 0xC0000001",
+    "address": "0x3fffafa6a868",
+    "stackTrace": [
+        "file://package6/windows/system32/sqlpal.dll+0x0000000000209C12",
+        "file://package6/windows/system32/sqlpal.dll+0x0000000000208156",
+        "file://package6/windows/system32/sqlpal.dll+0x000000000026A9D0",
+        "file://package6/windows/system32/sqlpal.dll+0x000000000026A868",
+        "file://package6/windows/system32/sqlpal.dll+0x0000000000269296",
+        "file://package6/windows/system32/sqlpal.dll+0x0000000000201F6E",
+        "file://package6/windows/system32/sqlpal.dll+0x00000000003A02FB",
+        "file:///windows/system32/ntdll.dll+0x00000000000F64AF",
+        "file:///windows/system32/AppLoader.exe+0x0000000000002ED7",
+        "file:///windows/system32/AppLoader.exe+0x000000000000301D",
+        "file:///windows/system32/AppLoader.exe+0x000000000000303D",
+        "file:///windows/system32/AppLoader.exe+0x000000000000A378",
+        "file:///Windows/SYSTEM32/KERNEL32.DLL+0x0000000000017AF4",
+        "file:///windows/system32/ntdll.dll+0x00000000000244A1"
+    ],
+    "stackModules": [
+        "file://package6/windows/system32/sqlpal.dll=35245a8c3cccd369c6d47b878c1c11971,F:\\dbs\\sh\\fz4i\\1108_113733\\LibOS\\Windows\\Kernel\\Init\\regular\\obj\\amd64\\sqlpal.pdb",
+        "file:///windows/system32/ntdll.dll=7cf052a32e1e8ed40593cc22973170581,ntdll.pdb",
+        "file:///windows/system32/AppLoader.exe=c763fcb9c188331626c74c01194630301,F:\\dbs\\sh\\fz4i\\1108_113733\\LibOS\\Windows\\Loaders\\App\\obj\\amd64\\AppLoader.pdb",
+        "file:///Windows/SYSTEM32/KERNEL32.DLL=e4cc0e21bddf68a68d56d644bb74b1311,kernel32.pdb"
+    ],
+    "distribution": "Ubuntu 22.04.5 LTS",
+    "processors": "8",
+    "total_memory": "16643014656",
+    "timestamp": "Fri Dec  6 10:04:57 2024"
+}

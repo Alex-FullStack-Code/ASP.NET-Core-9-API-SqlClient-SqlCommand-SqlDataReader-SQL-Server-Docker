@@ -1,0 +1,20 @@
+services:
+  web-api:
+    container_name: web-container  
+    build: .    
+    ports:
+      - 32770:8080
+    depends_on:
+      - sqlserver    
+      
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver-container
+    restart: on-failure
+    environment: 
+      - ACCEPT_EULA=Y  
+    ports:
+      - 1433:1433
+    volumes:
+        - ./mssql_volume:/var/opt/mssql  
+       

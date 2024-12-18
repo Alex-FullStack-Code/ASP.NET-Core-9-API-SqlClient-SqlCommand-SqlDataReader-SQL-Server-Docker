@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "wXQO+9P8aNts6xxKyit5qWZv2eVhSCNXjoCOiNbRv70=",
+  "Source": "HMDB",
+  "BasePath": "_content/HMDB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
